@@ -1,0 +1,16 @@
+<template><div><h2 id="二分查找算法" tabindex="-1"><a class="header-anchor" href="#二分查找算法" aria-hidden="true">#</a> 二分查找算法</h2>
+<h3 id="定义" tabindex="-1"><a class="header-anchor" href="#定义" aria-hidden="true">#</a> 定义</h3>
+<p>二分查找算法也称折半查找(Binary Search)，它是一种效率较高的查找方法。但是，折半查找要求线性表必须采用顺序存储结构，而且表中元素按关键字有序排列</p>
+<ul>
+<li>前提要求：
+<ol>
+<li>线性表必须采用顺序存储结构 -- 数组满足</li>
+<li>要求元素实现了排序</li>
+</ol>
+</li>
+</ul>
+<h3 id="线性表" tabindex="-1"><a class="header-anchor" href="#线性表" aria-hidden="true">#</a> 线性表</h3>
+<p>线性表是最基本、最简单、也是最常用的一种数据结构。一个线性表是n个具有相同特性的数据元素的有限序列。
+线性表中数据元素之间的关系是一对一的关系，即除了第一个和最后一个数据元素之外，其它数据元素都是首尾相接的（注意，这句话只适用大部分线性表，而不是全部。比如，循环链表逻辑层次上也是一种线性表（存储层次上属于链式存储，但是把最后一个数据元素的尾指针指向了首位结点）</p>
+<h3 id="顺序存储结构" tabindex="-1"><a class="header-anchor" href="#顺序存储结构" aria-hidden="true">#</a> 顺序存储结构</h3>
+</div></template>
