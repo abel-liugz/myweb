@@ -538,6 +538,459 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "MyBatis",
+    "headers": [
+      {
+        "level": 2,
+        "title": "创建整合了Spring与Mybatis的工程",
+        "slug": "创建整合了spring与mybatis的工程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mybatis的基本使用",
+        "slug": "mybatis的基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "动态SQL -- foreach",
+        "slug": "动态sql-foreach",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关于@sql注解",
+        "slug": "关于-sql注解",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关于RBAC",
+        "slug": "关于rbac",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mybatis的缓存机制",
+        "slug": "mybatis的缓存机制",
+        "children": []
+      }
+    ],
+    "path": "/SSM/notes/MyBatis.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Spring-AOP",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是Aop",
+        "slug": "什么是aop",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Spring实现Aop",
+        "slug": "spring实现aop",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "各种advice和aop方法参数",
+        "slug": "各种advice和aop方法参数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "切面语法定义规则",
+        "slug": "切面语法定义规则",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Aop实现业务逻辑层性能记录",
+        "slug": "aop实现业务逻辑层性能记录",
+        "children": []
+      }
+    ],
+    "path": "/SSM/notes/Spring-AOP.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Spring-IOC",
+    "headers": [
+      {
+        "level": 3,
+        "title": "关于Spring框架",
+        "slug": "关于spring框架",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "在Maven工程中使用Spring",
+        "slug": "在maven工程中使用spring",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "创建对象的方式",
+        "slug": "创建对象的方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "通过@Bean方法创建对象（显示配置Bean）",
+        "slug": "通过-bean方法创建对象-显示配置bean",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "通过组件扫描（隐式配置Bean）",
+        "slug": "通过组件扫描-隐式配置bean",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Spring中所有Bean的实例化时机",
+        "slug": "spring中所有bean的实例化时机",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "从Spring容器中获取Bean对象",
+        "slug": "从spring容器中获取bean对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Bean的作用域",
+        "slug": "bean的作用域",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "依赖注入",
+        "slug": "依赖注入",
+        "children": [
+          {
+            "level": 3,
+            "title": "@AutoWired注入",
+            "slug": "autowired注入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Stereotype注解和Meta注解",
+            "slug": "stereotype注解和meta注解",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Bean的生命周期",
+        "slug": "bean的生命周期",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "初始化",
+        "slug": "初始化",
+        "children": []
+      }
+    ],
+    "path": "/SSM/notes/Spring-IOC.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Spring-Test",
+    "headers": [
+      {
+        "level": 2,
+        "title": "分类：",
+        "slug": "分类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Junit5测试",
+        "slug": "junit5测试",
+        "children": [
+          {
+            "level": 3,
+            "title": "Junit5常用测试注解",
+            "slug": "junit5常用测试注解",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "断言 -- 自动化测试会使用",
+        "slug": "断言-自动化测试会使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "mock测试，应用于单元测试中的 -- 模拟测试",
+        "slug": "mock测试-应用于单元测试中的-模拟测试",
+        "children": [
+          {
+            "level": 3,
+            "title": "mock测试使用的步骤",
+            "slug": "mock测试使用的步骤",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Spring集成测试",
+        "slug": "spring集成测试",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "SpringBoot集成测试",
+        "slug": "springboot集成测试",
+        "children": []
+      }
+    ],
+    "path": "/SSM/notes/Spring-Test.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "SpringBoot",
+    "headers": [
+      {
+        "level": 2,
+        "title": "关于Spring Boot",
+        "slug": "关于spring-boot",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "创建Spring Boot工程",
+        "slug": "创建spring-boot工程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Spring Boot工程的结构",
+        "slug": "spring-boot工程的结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "在Spring Boot工程中使用Mybatis",
+        "slug": "在spring-boot工程中使用mybatis",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关于Profile配置",
+        "slug": "关于profile配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关于YAML配置",
+        "slug": "关于yaml配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用Druid数据库连接池",
+        "slug": "使用druid数据库连接池",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "编写持久层（数据访问层）代码",
+        "slug": "编写持久层-数据访问层-代码",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关于业务逻辑层（Service层）",
+        "slug": "关于业务逻辑层-service层",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用Lombok框架",
+        "slug": "使用lombok框架",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Slf4j日志框架",
+        "slug": "slf4j日志框架",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "控制器层开发",
+        "slug": "控制器层开发",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Validation框架",
+        "slug": "validation框架",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决跨域问题",
+        "slug": "解决跨域问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关于客户端提交请求参数的格式",
+        "slug": "关于客户端提交请求参数的格式",
+        "children": []
+      }
+    ],
+    "path": "/SSM/notes/SpringBoot.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "SpringMVC",
+    "headers": [
+      {
+        "level": 2,
+        "title": "五大组件",
+        "slug": "五大组件",
+        "children": [
+          {
+            "level": 3,
+            "title": "@RequestMapping注解",
+            "slug": "requestmapping注解",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "@响应正文",
+            "slug": "响应正文",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "请求参数",
+            "slug": "请求参数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "统一处理异常",
+            "slug": "统一处理异常",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "拦截器（Interceptor）",
+            "slug": "拦截器-interceptor",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/SSM/notes/SpringMVC.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "SpringSecurity",
+    "headers": [
+      {
+        "level": 2,
+        "title": "微服务的会话保持问题",
+        "slug": "微服务的会话保持问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "单点登录解决方案",
+        "slug": "单点登录解决方案",
+        "children": [
+          {
+            "level": 3,
+            "title": "Session共享",
+            "slug": "session共享",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "JWT令牌",
+            "slug": "jwt令牌",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Jwt登录流程图",
+        "slug": "jwt登录流程图",
+        "children": []
+      }
+    ],
+    "path": "/SSM/notes/SpringSecurity.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "基于MyBatis的分页查询",
+    "headers": [
+      {
+        "level": 2,
+        "title": "分页查询的优点",
+        "slug": "分页查询的优点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "PageHelper实现分页查询",
+        "slug": "pagehelper实现分页查询",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "PageHelper的基本使用",
+        "slug": "pagehelper的基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "PageInfo类中的分页信息解释",
+        "slug": "pageinfo类中的分页信息解释",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "控制层调用分页功能",
+        "slug": "控制层调用分页功能",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用JsonPage返回结果",
+        "slug": "使用jsonpage返回结果",
+        "children": []
+      }
+    ],
+    "path": "/SSM/notes/%E5%9F%BA%E4%BA%8EMyBatis%E7%9A%84%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "HTTP",
     "headers": [
       {
@@ -733,457 +1186,6 @@ export const searchIndex = [
       }
     ],
     "path": "/Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Redis",
-    "headers": [
-      {
-        "level": 2,
-        "title": "数据类型",
-        "slug": "数据类型",
-        "children": [
-          {
-            "level": 3,
-            "title": "基础数据类型",
-            "slug": "基础数据类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "特殊数据类型",
-            "slug": "特殊数据类型",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "缓存淘汰策略",
-        "slug": "缓存淘汰策略",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "缓存穿透",
-        "slug": "缓存穿透",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "缓存击穿",
-        "slug": "缓存击穿",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "缓存雪崩",
-        "slug": "缓存雪崩",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Redis持久化",
-        "slug": "redis持久化",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Redis存储原理",
-        "slug": "redis存储原理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Redis集群",
-        "slug": "redis集群",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "什么是布隆过滤器",
-        "slug": "什么是布隆过滤器",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "为什么使用布隆过滤器",
-        "slug": "为什么使用布隆过滤器",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "布隆过滤器原理",
-        "slug": "布隆过滤器原理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "设计布隆过滤器",
-        "slug": "设计布隆过滤器",
-        "children": []
-      }
-    ],
-    "path": "/%E6%95%B0%E6%8D%AE%E5%BA%93/notes/Redis.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "复杂SQL语句",
-    "headers": [],
-    "path": "/%E6%95%B0%E6%8D%AE%E5%BA%93/notes/%E5%A4%8D%E6%9D%82SQL%E8%AF%AD%E5%8F%A5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "数据库基础",
-    "headers": [
-      {
-        "level": 2,
-        "title": "SQL",
-        "slug": "sql",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "DBMS",
-        "slug": "dbms",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数据库和表的概念",
-        "slug": "数据库和表的概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "SQL语句格式",
-        "slug": "sql语句格式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数据库相关的SQL语句",
-        "slug": "数据库相关的sql语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "表相关的SQL语句",
-        "slug": "表相关的sql语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数据相关的SQL语句",
-        "slug": "数据相关的sql语句",
-        "children": [
-          {
-            "level": 3,
-            "title": "主键约束+自增",
-            "slug": "主键约束-自增",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "SQL语句分类",
-        "slug": "sql语句分类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数据类型",
-        "slug": "数据类型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "去重distinct",
-        "slug": "去重distinct",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "is null和is not null",
-        "slug": "is-null和is-not-null",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "and 和 or",
-        "slug": "and-和-or",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "比较运算符 >  <  >=  <=  =  != 和 <>",
-        "slug": "比较运算符-和",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "between x and y 两者之间",
-        "slug": "between-x-and-y-两者之间",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "in 关键字",
-        "slug": "in-关键字",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "模糊查询like",
-        "slug": "模糊查询like",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "排序 order by",
-        "slug": "排序-order-by",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分页查询",
-        "slug": "分页查询",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "别名",
-        "slug": "别名",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "聚合函数",
-        "slug": "聚合函数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数值计算 + - * / %",
-        "slug": "数值计算",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分组查询 group by",
-        "slug": "分组查询-group-by",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "having",
-        "slug": "having",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "各个关键字的书写顺序",
-        "slug": "各个关键字的书写顺序",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "子查询（嵌套查询）",
-        "slug": "子查询-嵌套查询",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关联关系",
-        "slug": "关联关系",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关联查询",
-        "slug": "关联查询",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "JDBC",
-        "slug": "jdbc",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "执行SQL语句的对象Statement",
-        "slug": "执行sql语句的对象statement",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "DBCP 数据库连接池",
-        "slug": "dbcp-数据库连接池",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "PreparedStatement预编译的SQL执行对象",
-        "slug": "preparedstatement预编译的sql执行对象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数据库常见错误",
-        "slug": "数据库常见错误",
-        "children": []
-      }
-    ],
-    "path": "/%E6%95%B0%E6%8D%AE%E5%BA%93/notes/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "数据库进阶",
-    "headers": [
-      {
-        "level": 2,
-        "title": "锁",
-        "slug": "锁",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "悲观锁和乐观锁",
-        "slug": "悲观锁和乐观锁",
-        "children": [
-          {
-            "level": 3,
-            "title": "悲观锁",
-            "slug": "悲观锁",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "乐观锁",
-            "slug": "乐观锁",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "事务",
-        "slug": "事务",
-        "children": [
-          {
-            "level": 3,
-            "title": "事务的四大特性",
-            "slug": "事务的四大特性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "数据库中事务自动提交默认开启",
-            "slug": "数据库中事务自动提交默认开启",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "死锁",
-            "slug": "死锁",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "事务隔离级别",
-            "slug": "事务隔离级别",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "索引",
-        "slug": "索引",
-        "children": [
-          {
-            "level": 3,
-            "title": "索引的分类",
-            "slug": "索引的分类",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "索引操作",
-            "slug": "索引操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "索引的适用场景",
-            "slug": "索引的适用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "索引失效场景",
-            "slug": "索引失效场景",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "数据库的五大约束",
-        "slug": "数据库的五大约束",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "视图",
-        "slug": "视图",
-        "children": [
-          {
-            "level": 3,
-            "title": "什么是视图",
-            "slug": "什么是视图",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视图操作",
-            "slug": "视图操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视图注意事项：",
-            "slug": "视图注意事项",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如何进行慢sql优化",
-            "slug": "如何进行慢sql优化",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如何优化数据库",
-            "slug": "如何优化数据库",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如果主服务宕机了，怎么办？",
-            "slug": "如果主服务宕机了-怎么办",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/%E6%95%B0%E6%8D%AE%E5%BA%93/notes/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9B%E9%98%B6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1951,6 +1953,457 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Redis",
+    "headers": [
+      {
+        "level": 2,
+        "title": "数据类型",
+        "slug": "数据类型",
+        "children": [
+          {
+            "level": 3,
+            "title": "基础数据类型",
+            "slug": "基础数据类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "特殊数据类型",
+            "slug": "特殊数据类型",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "缓存淘汰策略",
+        "slug": "缓存淘汰策略",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "缓存穿透",
+        "slug": "缓存穿透",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "缓存击穿",
+        "slug": "缓存击穿",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "缓存雪崩",
+        "slug": "缓存雪崩",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Redis持久化",
+        "slug": "redis持久化",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Redis存储原理",
+        "slug": "redis存储原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Redis集群",
+        "slug": "redis集群",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "什么是布隆过滤器",
+        "slug": "什么是布隆过滤器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "为什么使用布隆过滤器",
+        "slug": "为什么使用布隆过滤器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "布隆过滤器原理",
+        "slug": "布隆过滤器原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "设计布隆过滤器",
+        "slug": "设计布隆过滤器",
+        "children": []
+      }
+    ],
+    "path": "/%E6%95%B0%E6%8D%AE%E5%BA%93/notes/Redis.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "复杂SQL语句",
+    "headers": [],
+    "path": "/%E6%95%B0%E6%8D%AE%E5%BA%93/notes/%E5%A4%8D%E6%9D%82SQL%E8%AF%AD%E5%8F%A5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "数据库基础",
+    "headers": [
+      {
+        "level": 2,
+        "title": "SQL",
+        "slug": "sql",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "DBMS",
+        "slug": "dbms",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数据库和表的概念",
+        "slug": "数据库和表的概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "SQL语句格式",
+        "slug": "sql语句格式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数据库相关的SQL语句",
+        "slug": "数据库相关的sql语句",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "表相关的SQL语句",
+        "slug": "表相关的sql语句",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数据相关的SQL语句",
+        "slug": "数据相关的sql语句",
+        "children": [
+          {
+            "level": 3,
+            "title": "主键约束+自增",
+            "slug": "主键约束-自增",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "SQL语句分类",
+        "slug": "sql语句分类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数据类型",
+        "slug": "数据类型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "去重distinct",
+        "slug": "去重distinct",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "is null和is not null",
+        "slug": "is-null和is-not-null",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "and 和 or",
+        "slug": "and-和-or",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "比较运算符 >  <  >=  <=  =  != 和 <>",
+        "slug": "比较运算符-和",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "between x and y 两者之间",
+        "slug": "between-x-and-y-两者之间",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "in 关键字",
+        "slug": "in-关键字",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "模糊查询like",
+        "slug": "模糊查询like",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "排序 order by",
+        "slug": "排序-order-by",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分页查询",
+        "slug": "分页查询",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "别名",
+        "slug": "别名",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "聚合函数",
+        "slug": "聚合函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数值计算 + - * / %",
+        "slug": "数值计算",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分组查询 group by",
+        "slug": "分组查询-group-by",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "having",
+        "slug": "having",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "各个关键字的书写顺序",
+        "slug": "各个关键字的书写顺序",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "子查询（嵌套查询）",
+        "slug": "子查询-嵌套查询",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关联关系",
+        "slug": "关联关系",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关联查询",
+        "slug": "关联查询",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JDBC",
+        "slug": "jdbc",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "执行SQL语句的对象Statement",
+        "slug": "执行sql语句的对象statement",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "DBCP 数据库连接池",
+        "slug": "dbcp-数据库连接池",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "PreparedStatement预编译的SQL执行对象",
+        "slug": "preparedstatement预编译的sql执行对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数据库常见错误",
+        "slug": "数据库常见错误",
+        "children": []
+      }
+    ],
+    "path": "/%E6%95%B0%E6%8D%AE%E5%BA%93/notes/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "数据库进阶",
+    "headers": [
+      {
+        "level": 2,
+        "title": "锁",
+        "slug": "锁",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "悲观锁和乐观锁",
+        "slug": "悲观锁和乐观锁",
+        "children": [
+          {
+            "level": 3,
+            "title": "悲观锁",
+            "slug": "悲观锁",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "乐观锁",
+            "slug": "乐观锁",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "事务",
+        "slug": "事务",
+        "children": [
+          {
+            "level": 3,
+            "title": "事务的四大特性",
+            "slug": "事务的四大特性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "数据库中事务自动提交默认开启",
+            "slug": "数据库中事务自动提交默认开启",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "死锁",
+            "slug": "死锁",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "事务隔离级别",
+            "slug": "事务隔离级别",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "索引",
+        "slug": "索引",
+        "children": [
+          {
+            "level": 3,
+            "title": "索引的分类",
+            "slug": "索引的分类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "索引操作",
+            "slug": "索引操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "索引的适用场景",
+            "slug": "索引的适用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "索引失效场景",
+            "slug": "索引失效场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "数据库的五大约束",
+        "slug": "数据库的五大约束",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "视图",
+        "slug": "视图",
+        "children": [
+          {
+            "level": 3,
+            "title": "什么是视图",
+            "slug": "什么是视图",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视图操作",
+            "slug": "视图操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视图注意事项：",
+            "slug": "视图注意事项",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "如何进行慢sql优化",
+            "slug": "如何进行慢sql优化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "如何优化数据库",
+            "slug": "如何优化数据库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "如果主服务宕机了，怎么办？",
+            "slug": "如果主服务宕机了-怎么办",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/%E6%95%B0%E6%8D%AE%E5%BA%93/notes/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9B%E9%98%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Docker",
     "headers": [
       {
@@ -2174,459 +2627,6 @@ export const searchIndex = [
       }
     ],
     "path": "/%E5%85%B6%E4%BB%96/notes/%E9%9D%A2%E8%AF%95%E9%A2%98.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "MyBatis",
-    "headers": [
-      {
-        "level": 2,
-        "title": "创建整合了Spring与Mybatis的工程",
-        "slug": "创建整合了spring与mybatis的工程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mybatis的基本使用",
-        "slug": "mybatis的基本使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "动态SQL -- foreach",
-        "slug": "动态sql-foreach",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关于@sql注解",
-        "slug": "关于-sql注解",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关于RBAC",
-        "slug": "关于rbac",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mybatis的缓存机制",
-        "slug": "mybatis的缓存机制",
-        "children": []
-      }
-    ],
-    "path": "/SSM/notes/MyBatis.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Spring-AOP",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是Aop",
-        "slug": "什么是aop",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Spring实现Aop",
-        "slug": "spring实现aop",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "各种advice和aop方法参数",
-        "slug": "各种advice和aop方法参数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "切面语法定义规则",
-        "slug": "切面语法定义规则",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Aop实现业务逻辑层性能记录",
-        "slug": "aop实现业务逻辑层性能记录",
-        "children": []
-      }
-    ],
-    "path": "/SSM/notes/Spring-AOP.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Spring-IOC",
-    "headers": [
-      {
-        "level": 3,
-        "title": "关于Spring框架",
-        "slug": "关于spring框架",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "在Maven工程中使用Spring",
-        "slug": "在maven工程中使用spring",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "创建对象的方式",
-        "slug": "创建对象的方式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "通过@Bean方法创建对象（显示配置Bean）",
-        "slug": "通过-bean方法创建对象-显示配置bean",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "通过组件扫描（隐式配置Bean）",
-        "slug": "通过组件扫描-隐式配置bean",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Spring中所有Bean的实例化时机",
-        "slug": "spring中所有bean的实例化时机",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "从Spring容器中获取Bean对象",
-        "slug": "从spring容器中获取bean对象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Bean的作用域",
-        "slug": "bean的作用域",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "依赖注入",
-        "slug": "依赖注入",
-        "children": [
-          {
-            "level": 3,
-            "title": "@AutoWired注入",
-            "slug": "autowired注入",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Stereotype注解和Meta注解",
-            "slug": "stereotype注解和meta注解",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Bean的生命周期",
-        "slug": "bean的生命周期",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "初始化",
-        "slug": "初始化",
-        "children": []
-      }
-    ],
-    "path": "/SSM/notes/Spring-IOC.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Spring-Test",
-    "headers": [
-      {
-        "level": 2,
-        "title": "分类：",
-        "slug": "分类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Junit5测试",
-        "slug": "junit5测试",
-        "children": [
-          {
-            "level": 3,
-            "title": "Junit5常用测试注解",
-            "slug": "junit5常用测试注解",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "断言 -- 自动化测试会使用",
-        "slug": "断言-自动化测试会使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "mock测试，应用于单元测试中的 -- 模拟测试",
-        "slug": "mock测试-应用于单元测试中的-模拟测试",
-        "children": [
-          {
-            "level": 3,
-            "title": "mock测试使用的步骤",
-            "slug": "mock测试使用的步骤",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Spring集成测试",
-        "slug": "spring集成测试",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "SpringBoot集成测试",
-        "slug": "springboot集成测试",
-        "children": []
-      }
-    ],
-    "path": "/SSM/notes/Spring-Test.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "SpringBoot",
-    "headers": [
-      {
-        "level": 2,
-        "title": "关于Spring Boot",
-        "slug": "关于spring-boot",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "创建Spring Boot工程",
-        "slug": "创建spring-boot工程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Spring Boot工程的结构",
-        "slug": "spring-boot工程的结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "在Spring Boot工程中使用Mybatis",
-        "slug": "在spring-boot工程中使用mybatis",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关于Profile配置",
-        "slug": "关于profile配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关于YAML配置",
-        "slug": "关于yaml配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用Druid数据库连接池",
-        "slug": "使用druid数据库连接池",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "编写持久层（数据访问层）代码",
-        "slug": "编写持久层-数据访问层-代码",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关于业务逻辑层（Service层）",
-        "slug": "关于业务逻辑层-service层",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用Lombok框架",
-        "slug": "使用lombok框架",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Slf4j日志框架",
-        "slug": "slf4j日志框架",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "控制器层开发",
-        "slug": "控制器层开发",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Validation框架",
-        "slug": "validation框架",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决跨域问题",
-        "slug": "解决跨域问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关于客户端提交请求参数的格式",
-        "slug": "关于客户端提交请求参数的格式",
-        "children": []
-      }
-    ],
-    "path": "/SSM/notes/SpringBoot.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "SpringMVC",
-    "headers": [
-      {
-        "level": 2,
-        "title": "五大组件",
-        "slug": "五大组件",
-        "children": [
-          {
-            "level": 3,
-            "title": "@RequestMapping注解",
-            "slug": "requestmapping注解",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "@响应正文",
-            "slug": "响应正文",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "请求参数",
-            "slug": "请求参数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "统一处理异常",
-            "slug": "统一处理异常",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "拦截器（Interceptor）",
-            "slug": "拦截器-interceptor",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/SSM/notes/SpringMVC.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "SpringSecurity",
-    "headers": [
-      {
-        "level": 2,
-        "title": "微服务的会话保持问题",
-        "slug": "微服务的会话保持问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "单点登录解决方案",
-        "slug": "单点登录解决方案",
-        "children": [
-          {
-            "level": 3,
-            "title": "Session共享",
-            "slug": "session共享",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "JWT令牌",
-            "slug": "jwt令牌",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Jwt登录流程图",
-        "slug": "jwt登录流程图",
-        "children": []
-      }
-    ],
-    "path": "/SSM/notes/SpringSecurity.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "基于MyBatis的分页查询",
-    "headers": [
-      {
-        "level": 2,
-        "title": "分页查询的优点",
-        "slug": "分页查询的优点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "PageHelper实现分页查询",
-        "slug": "pagehelper实现分页查询",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "PageHelper的基本使用",
-        "slug": "pagehelper的基本使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "PageInfo类中的分页信息解释",
-        "slug": "pageinfo类中的分页信息解释",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "控制层调用分页功能",
-        "slug": "控制层调用分页功能",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用JsonPage返回结果",
-        "slug": "使用jsonpage返回结果",
-        "children": []
-      }
-    ],
-    "path": "/SSM/notes/%E5%9F%BA%E4%BA%8EMyBatis%E7%9A%84%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2.html",
     "pathLocale": "/",
     "extraFields": []
   },

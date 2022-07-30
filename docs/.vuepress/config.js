@@ -11,14 +11,12 @@ module.exports = {
         {
             logo: '/images/JAVA.png',
             logoDark:'/images/java-2.png',
-            repo:'/',
+            repo:'https://gitee.com/liu-guanzheng/myweb.git',
             navbar: require('./navbar'),
             sidebar:'auto',
-            editLink:true,
-            editLinkText:'编辑此页',
-            // editLinkPattern:':repo/:path',
             collapsible: true,
             lastUpdated: true,
+            editLink:false,
 
         }
     ),
